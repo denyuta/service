@@ -89,8 +89,7 @@ header{
 /*ここ以下が田頭書いたserviceのcss*/
 
 
-main{
-  height: 500px;
+
 
   .title{
     @include ft-en-demi;
@@ -111,7 +110,15 @@ main{
     width: 100%;
   }
 
-}
+  .container{
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+
+
+
+
+
 
 
 

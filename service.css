@@ -70,11 +70,7 @@ header .nav__contact-button .contact-button a {
 
 /*コメント*/
 /*ここ以下が田頭書いたserviceのcss*/
-main {
-  height: 500px;
-}
-
-main .title {
+.title {
   font-family: futura-pt, sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -86,13 +82,21 @@ main .title {
   font-size: 65px;
 }
 
-main .sub-title {
+.sub-title {
   margin-left: 140px;
   font-size: 20px;
 }
 
-main .image-header img {
+.image-header img {
   width: 100%;
+}
+
+.container {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 footer {
