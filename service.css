@@ -70,6 +70,10 @@ header .nav__contact-button .contact-button a {
 
 /*コメント*/
 /*ここ以下が田頭書いたserviceのcss*/
+h3 {
+  font-size: 26px;
+}
+
 .title {
   font-family: futura-pt, sans-serif;
   font-weight: 600;
