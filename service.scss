@@ -113,31 +113,48 @@ header{
   }
 
   .container{
-    display: inline-flex;
+    display: flex;
+    flex-direction: row;  
     margin-left: 20%;
     margin-right: 10%;
     flex-wrap: wrap;
+    align-items: center;
     gap: 20px 60px; /* 余白 */
 
     .item{
       max-width: 60%;
-    }  
+      height: 360px;
 
-    .radius-img{
-      height: 340px;
-      width: 340px;
-      border-radius: 40px 0 40px 0;
+      .radius-img{
+        height: 340px;
+        width: 340px;
+        border-radius: 40px 0 40px 0;
+      }
+
+      .btn-radius{
+        width: 211px;
+        height: 44px; 
+        color: white;
+        text-align:center;   
+        line-height:44px;
+        background:#333333;
+        border-radius:  24px;
+        margin-right: 25px;
+        margin-top: auto;
+      }
+
+
+
     }
-
-    .btn-radius{
-      width: 211px;px;
-      height: 44px;px;
-      background:#333333;
-      border: radius 24px;px;
-    }
-
 
   }
+
+  .mini-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
 
 
 

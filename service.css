@@ -94,25 +94,56 @@ header .nav__contact-button .contact-button a {
 }
 
 .container {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   margin-left: 20%;
   margin-right: 10%;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 20px 60px;
   /* 余白 */
 }
 
 .container .item {
   max-width: 60%;
+  height: 360px;
 }
 
-.container .radius-img {
+.container .item .radius-img {
   height: 340px;
   width: 340px;
   border-radius: 40px 0 40px 0;
+}
+
+.container .item .btn-radius {
+  width: 211px;
+  height: 44px;
+  color: white;
+  text-align: center;
+  line-height: 44px;
+  background: #333333;
+  border-radius: 24px;
+  margin-right: 25px;
+  margin-top: auto;
+}
+
+.mini-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 footer {
