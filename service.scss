@@ -89,9 +89,13 @@ header{
 /*ここ以下が田頭書いたserviceのcss*/
 
   h3{
+    @include ft-ja;
     font-size: 26px;
   }
 
+  p{
+    line-height: 28px;
+  }
 
   .title{
     @include ft-en-demi;
@@ -104,6 +108,7 @@ header{
   }
 
   .sub-title{
+    @include ft-ja;
     margin-left: 140px;
     font-size: 20px;   
   }
