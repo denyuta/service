@@ -69,6 +69,7 @@ header .nav__contact-button .contact-button a {
 }
 
 /*コメント*/
+/*ここ以下が田頭書いたserviceのcss*/
 main {
   height: 500px;
 }
@@ -90,7 +91,7 @@ main .sub-title {
   font-size: 20px;
 }
 
-main .image-header {
+main .image-header img {
   width: 100%;
 }
 
@@ -172,4 +173,4 @@ footer .footer-nav__copywiter .copywiter {
   font-size: 14px;
   text-align: end;
 }
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=service.css.map */
