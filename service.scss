@@ -97,6 +97,11 @@ header{
     line-height: 28px;
   }
 
+  a.no-color-change {
+    color: white;
+    text-decoration: none;
+  }
+
   .title{
     @include ft-en-demi;
     
