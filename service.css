@@ -170,6 +170,7 @@ header .nav__contact-button .contact-button a {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   height: 100%;
+  /*__itemの要素は上寄せにし（文章が短いとbetweenだと不格好）、余った空間を全部mini-containerにする*/
 }
 
 .service .service-mini-container__btn {
@@ -182,6 +183,7 @@ header .nav__contact-button .contact-button a {
   border-radius: 24px;
   margin-right: 25px;
   margin-top: auto;
+  /*__btnだけ下寄せにする*/
 }
 
 /*serviceここまで*/
