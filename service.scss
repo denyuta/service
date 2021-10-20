@@ -106,11 +106,11 @@ header{
 
   &__title{
     @include ft-en-demi;
-  
     margin-top: 80px;
     margin-bottom: 0%;
     margin-left: 140px;
     font-size: 65px;  
+    line-height:80px;
   }
 
   &__sub-title{
@@ -118,6 +118,7 @@ header{
 
     margin-left: 140px;
     font-size: 20px;   
+    line-height:  20px;
   }
 
   &__cover{
