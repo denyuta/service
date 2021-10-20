@@ -107,7 +107,6 @@ header{
   &__title{
     @include ft-en-demi;
     margin-top: 80px;
-    margin-bottom: 0%;
     margin-left: 140px;
     font-size: 65px;  
     line-height:80px;
@@ -137,8 +136,8 @@ header{
 
     margin-left: 20%;
     margin-right: 10%;
-    margin-bottom: 30px;
-    gap: 20px 60px; /* 余白 */
+    margin-bottom: 60px;
+    gap: 30px 60px; /* 横余白　縦余白 */
     
     &__img{
       img{
@@ -172,7 +171,7 @@ header{
       text-align:center;   
       line-height:44px;
       background:#333333;
-      
+
       border-radius:  24px;
       margin-right: 25px;
       margin-top: auto;      /*__btnだけ下寄せにする*/
