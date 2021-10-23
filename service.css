@@ -74,24 +74,6 @@ header .nav__contact-button .contact-button a {
   /*serviceここから*/
 }
 
-.service h3 {
-  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  color: #333333;
-  font-size: 16px;
-  font-size: 26px;
-}
-
-.service p {
-  line-height: 28px;
-}
-
-.service a.no-color-change {
-  color: white;
-  text-decoration: none;
-}
-
 .service__title {
   font-family: futura-pt, sans-serif;
   font-weight: 600;
@@ -99,6 +81,7 @@ header .nav__contact-button .contact-button a {
   color: #333333;
   font-size: 16px;
   margin-top: 80px;
+  margin-bottom: 0px;
   margin-left: 140px;
   font-size: 65px;
   line-height: 80px;
@@ -110,6 +93,8 @@ header .nav__contact-button .contact-button a {
   font-weight: bold;
   color: #333333;
   font-size: 16px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   margin-left: 140px;
   font-size: 20px;
   line-height: 20px;
@@ -160,6 +145,40 @@ header .nav__contact-button .contact-button a {
   /*justify-content: space-between;*/
   max-width: 60%;
   height: 340px;
+}
+
+.service .service-container__item .item-title {
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  color: #333333;
+  font-size: 16px;
+  font-size: 26px;
+  line-height: 28px;
+  font-weight: bold;
+}
+
+.service .service-container__item .item-text {
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.service .service-container__item .no-color-change {
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  color: #333333;
+  font-size: 16px;
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
 }
 
 .service .service-mini-container {

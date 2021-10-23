@@ -90,23 +90,11 @@ header{
 
 .service{         /*serviceここから*/
 
-  h3{
-    @include ft-ja;
-    font-size: 26px;
-  }
-
-  p{
-    line-height: 28px;
-  }
-
-  a.no-color-change {
-    color: white;
-    text-decoration: none;
-  }
 
   &__title{
     @include ft-en-demi;
     margin-top: 80px;
+    margin-bottom: 0px;
     margin-left: 140px;
     font-size: 65px;  
     line-height:80px;
@@ -114,6 +102,8 @@ header{
 
   &__sub-title{
     @include ft-ja;
+    margin-top: 0px;
+    margin-bottom: 0px;
     margin-left: 140px;
     font-size: 20px;   
     line-height:  20px;
@@ -155,6 +145,29 @@ header{
 
       max-width: 60%;
       height: 340px;
+
+      .item-title{
+        @include ft-ja;
+        font-size: 26px;
+        line-height: 28px;
+        font-weight: bold;
+      }
+
+      .item-text{
+        @include ft-ja;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 28px;
+      }
+
+      .no-color-change {
+        @include ft-ja;
+        font-weight: bold;
+        font-size: 14px;
+        color: white;
+        text-decoration: none;
+      }
+
     }
   }
 
@@ -177,7 +190,8 @@ header{
       margin-top: auto;      /*__btnだけ下寄せにする*/
     }
   }
-    
+  
+
 }          /*serviceここまで*/
 
 
